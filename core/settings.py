@@ -29,8 +29,15 @@ SECRET_KEY = 'django-insecure-rolyen+v&kx&ko@hel3w5*3lwj51r=#f8m-&1an3=_r5&h=c%p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://web-production-0cad.up.railway.app",
+]
+
+
 ALLOWED_HOSTS = [
-    'web-production-0cad.up.railway.app'
+    "web-production-0cad.up.railway.app",
+    "127.0.0.1",  # para uso local
+    "localhost",
 ]
 
 
