@@ -29,7 +29,9 @@ SECRET_KEY = 'django-insecure-rolyen+v&kx&ko@hel3w5*3lwj51r=#f8m-&1an3=_r5&h=c%p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'web-production-0cad.up.railway.app'
+]
 
 
 # Application definition
